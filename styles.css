@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .about{
@@ -10,9 +11,10 @@ body{
 
 .carousel-item{
  margin-top: 1em;
- width: 320px;
- height: 400px;
- background-color: gray;
+ /* width: 320px;
+ height: 500px; */
+ /* background-color: gray; */
+ background-color: rgba(33,37,41);
  align-self: center;
 }
 
@@ -20,6 +22,7 @@ body{
     margin-bottom: .75em;
     margin-top: .5em;
     text-align: center;
+    color: white;
 }
 
 #project-label{
@@ -29,18 +32,56 @@ body{
 
 #img-2{
     height: 190px;
+    max-height: 190px;
+    
+}
+
+.carousel-item{
+  
+}
+
+.carousel-p{
+    height: 100px;
+    color: white;
+    margin-top: 1em;
 }
 
 #github-icon{
- 
+        padding-top: 1em;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 1em;
         
+        /* margin-top: 1em; */
+        /* top: 5em;
+        position: relative; */
       
 }
 
-#button-color{
-    
+.github-icon{
+    background-color: white;
+    height: 100%;
+    color: black;
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    background-color: black !important;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 2em;
+}
+
+#linkedin-icon{
+    margin-right: 3em;
+}
+
+#gmail-icon{
+    margin-top: 1em;
 }
