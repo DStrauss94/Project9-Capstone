@@ -3,6 +3,7 @@ body{
     
 }
 
+
 .about{
     margin-top: 1em;
     text-align: center;
@@ -70,6 +71,7 @@ body{
     height: 100%;
     color: black;
     text-align: center;
+    padding-bottom: 1em;
 }
 
 a{
@@ -82,8 +84,13 @@ a{
 
 .contact{
     text-align: center;
-    padding-top: 2em;
+    
 }
+
+#contact-line{
+    margin: 0 0 1em 0
+}
+
 
 #linkedin-icon{
     margin-right: 3em;
@@ -98,14 +105,11 @@ hr{
     border: 2px solid black;
     border-radius: 10px;
     background-color: black;
+    margin: 1em 0 0 0;
 
 }
 
 /* Dark Mode CSS  */
-
-
-
-
 
 .dark-mode {
     background-color: rgba(33,37,41);
@@ -113,8 +117,13 @@ hr{
   }
 
   .dark-mode-carousel{
-      background-color: white;
-      color: black;
+      background-color: black;
+      color: white;
+  }
+
+  .hr-dark-mode{
+    border: white;
+    background-color: white;
   }
 
 

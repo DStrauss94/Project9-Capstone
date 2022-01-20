@@ -21,7 +21,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Home</a>
           <label class="switch" id="switch2">
-            <input type="checkbox" onclick="myFunction()">
+            <input type="checkbox" onclick="toggleBody(); toggleGithub()">
             <span class="slider round">
                 
             </span>
@@ -112,12 +112,14 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        
+
       </div>
 
-      <hr>
-
+      
       <div class="contact">
-        <h2>Contact</h2>
+        <hr id="contact-line">
+        <h2 id="contact">Contact</h2>
         <a href="https://www.linkedin.com/in/dstrauss94/"> <img src="/photos/linkedin.png" id="linkedin-icon"/></a>
         <a href="mailto: douglasstrauss94@gmail.com"> <img src="/photos/gmail.png" id="gmail-icon"/></a>
 
