@@ -12,7 +12,18 @@ toggleBody = () => {
 }
 
 toggleGithub = () => {
-    var elementTwo = document.querySelector('#github');
-    elementTwo.classList.toggle('dark-mode-carousel');
+    var elementTwo = document.querySelectorAll('#github');
+    console.log(elementTwo);
+
+    elementTwo.forEach(elementNode => {
+        elementNode.classList.toggle("dark-mode-carousel");
+    });
+    
+    // elementTwo.forEach(githubDark);
+
+    // githubDark = (node) => {
+    //     node.classList.toggle('dark-mode-carousel');
+    // }
+    
     
 }
