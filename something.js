@@ -9,6 +9,7 @@ toggleBody = () => {
     var element = document.body;
     element.classList.toggle('dark-mode');
     toggleGithub();
+    toggleLines();
 }
 
 toggleGithub = () => {
@@ -19,11 +20,11 @@ toggleGithub = () => {
         elementNode.classList.toggle("dark-mode-carousel");
     });
     
-    // elementTwo.forEach(githubDark);
+    
+}
 
-    // githubDark = (node) => {
-    //     node.classList.toggle('dark-mode-carousel');
-    // }
-    
-    
+toggleLines = () => {
+    var elementThree = document.querySelectorAll('#line');
+    console.log(elementThree);
+    elementThree.classList.toggle('hr-dark-mode');
 }
