@@ -28,3 +28,17 @@ toggleLines = () => {
     console.log(elementThree);
     elementThree.classList.toggle('hr-dark-mode');
 }
+
+removeChildren = () => {
+    let list = document.getElementById("carouselExampleControls");
+   
+        while(list.firstChild) {
+            list.removeChild(list.firstChild);
+        }
+
+}
+
+if(window.screen.width >= 768){
+    removeChildren();
+}
+
