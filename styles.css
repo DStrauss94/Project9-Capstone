@@ -210,3 +210,20 @@ hr{
   input{
     margin-left: .5em;
   }
+
+  footer{
+    text-align: center;
+  }
+
+  @media screen and (min-width: 600px) {
+    
+    .switch{
+      left: 25%;
+    }
+
+
+
+
+
+  }
+  
