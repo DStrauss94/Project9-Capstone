@@ -215,10 +215,10 @@ hr{
     text-align: center;
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 768px) {
     
     .switch{
-      left: 25%;
+      left: 30%;
     }
 
 
