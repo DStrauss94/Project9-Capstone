@@ -38,3 +38,11 @@ window.addEventListener('resize', () => {
              }
     }
 });
+
+window.addEventListener('resize', () => {
+    
+    if(window.screen.width < 768){
+        location.reload();
+        
+    }
+});
