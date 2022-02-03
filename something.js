@@ -1,9 +1,12 @@
-
-// function toggleBody() {
-//     var element = document.body;
-//     element.classList.toggle('dark-mode');
-
+// if(window.innerWidth >=768){
+//     let list = document.getElementById("carouselExampleControls");
+//     list.style.display = 'none';
+//     gridLayout();
 // }
+// else{
+//     list.style.display = 'none';
+//   }
+
 
 toggleBody = () => {
     var element = document.body;
@@ -32,17 +35,24 @@ toggleLines = () => {
 
 window.addEventListener('resize', () => {
     let list = document.getElementById("carouselExampleControls");
-    if(window.screen.width >= 768){
-        while(list.firstChild) {
-                list.removeChild(list.firstChild);
-             }
+    if(window.innerWidth <= 768){
+      list.style.display = '';
+    } else{
+      list.style.display = 'none';
     }
-});
+  });
 
-window.addEventListener('resize', () => {
+
+ 
+
+
+gridLayout = () => {
     
-    if(window.screen.width < 768){
-        location.reload();
+        const p = document.createElement("p");
+        p.innerHTML = "Hello World!";
+        let project1 = document.getElementById('grid-project');
+        project1.append(p);
         
-    }
-});
+        
+    
+}
