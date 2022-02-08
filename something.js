@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
         list.style.display = 'none';
         gridLayout();
     }
+    else{
+        gridLayout();
+        let list2 = document.getElementById("grid-project");
+        list2.style.display = 'none';
+    }
 }, true);
 
 
