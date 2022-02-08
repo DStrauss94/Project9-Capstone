@@ -57,8 +57,26 @@ window.addEventListener('resize', () => {
 //where my Grid HTML will populate 
  gridLayout = () => {
 
-        const div = document.createElement("div");
+        const div1 = document.createElement("div1");
         const text = document.createTextNode("Form Project");
-        div.appendChild(text);
-        document.getElementById("grid-project").appendChild(div);
+        div1.appendChild(text);
+        document.getElementById("grid-project").appendChild(div1);
+        
+        
+        
+
+        const div2 = document.createElement("div2");
+        const text2 = document.createTextNode("WebApp Dashboard");
+        div2.appendChild(text2);
+        document.getElementById("grid-project").appendChild(div2);
+
+        const div3 = document.createElement("div3");
+        const text3 = document.createTextNode("Wheel Of Success");
+        div3.appendChild(text3);
+        document.getElementById("grid-project").appendChild(div3);
+
+        const div4 = document.createElement("div4");
+        const text4 = document.createTextNode("Employee Directory");
+        div4.appendChild(text4);
+        document.getElementById("grid-project").appendChild(div4);
     }

@@ -225,6 +225,8 @@ hr{
       text-align: center;
       color: red;
       font-weight: bold;
+      display: grid; 
+      grid-template-columns: auto auto;
     }
 
 
