@@ -3,6 +3,10 @@ body{
     
 }
 
+.grid-project{
+  display: none;
+}
+
 
 .about{
     margin-top: 1em;
@@ -221,15 +225,25 @@ hr{
       left: 30%;
     }
 
-    #grid-project{
+    .grid-project{
       text-align: center;
-      color: red;
       font-weight: bold;
-      display: grid; 
+      display: grid;
       grid-template-columns: auto auto;
     }
 
+    #carouselExampleControls{
+      display: none;
+    }
 
+    .project-img{
+      width: 400px;
+      height: 250px;
+    }
+
+    .github-img{
+      width: 60px;
+    }
 
 
 

@@ -1,19 +1,3 @@
-//When the page loads, check to see if screen is equal or bigger than 768px
-//If so, then it removes Carousel Html
-document.addEventListener("DOMContentLoaded", function() { 
-    if(window.innerWidth >=768){
-        let list = document.getElementById("carouselExampleControls");
-        list.style.display = 'none';
-        gridLayout();
-    }
-    else{
-        gridLayout();
-        let list2 = document.getElementById("grid-project");
-        list2.style.display = 'none';
-    }
-}, true);
-
-
 
 toggleBody = () => {
     var element = document.body;
@@ -39,44 +23,3 @@ toggleLines = () => {
     elementThree.classList.toggle('hr-dark-mode');
 }
 
-
-window.addEventListener('resize', () => {
-    let list = document.getElementById("carouselExampleControls");
-    let list2 = document.getElementById("grid-project");
-    if(window.innerWidth < 768){
-      list.style.display = '';
-      list2.style.display = 'none';
-    } else{
-      list.style.display = 'none';
-      list2.style.display = '';  
-      
-    }
-    
-  });
-
-//where my Grid HTML will populate 
- gridLayout = () => {
-
-        const div1 = document.createElement("div1");
-        const text = document.createTextNode("Form Project");
-        div1.appendChild(text);
-        document.getElementById("grid-project").appendChild(div1);
-        
-        
-        
-
-        const div2 = document.createElement("div2");
-        const text2 = document.createTextNode("WebApp Dashboard");
-        div2.appendChild(text2);
-        document.getElementById("grid-project").appendChild(div2);
-
-        const div3 = document.createElement("div3");
-        const text3 = document.createTextNode("Wheel Of Success");
-        div3.appendChild(text3);
-        document.getElementById("grid-project").appendChild(div3);
-
-        const div4 = document.createElement("div4");
-        const text4 = document.createTextNode("Employee Directory");
-        div4.appendChild(text4);
-        document.getElementById("grid-project").appendChild(div4);
-    }
