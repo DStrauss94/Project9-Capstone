@@ -8,7 +8,7 @@ toggleBody = () => {
 
 toggleGithub = () => {
     var elementTwo = document.querySelectorAll('#github');
-    console.log(elementTwo);
+    // console.log(elementTwo);
 
     elementTwo.forEach(elementNode => {
         elementNode.classList.toggle("dark-mode-carousel");
@@ -18,8 +18,13 @@ toggleGithub = () => {
 }
 
 toggleLines = () => {
-    var elementThree = document.querySelectorAll('#line');
+    var elementThree = document.querySelectorAll('hr');
     console.log(elementThree);
-    elementThree.classList.toggle('hr-dark-mode');
+
+    elementThree.forEach(elementNode => {
+        elementNode.classList.toggle("hr-dark-mode");
+    });
+    
+    
 }
 

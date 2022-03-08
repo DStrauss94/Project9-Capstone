@@ -108,12 +108,12 @@ a{
 
 }
 
-hr{
-    height: 5px;
+.line{
+    
     border: 2px solid black;
-    border-radius: 10px;
-    background-color: black;
-    margin: 1em 0 0 0;
+    opacity: 1;
+    
+    
 
 }
 
@@ -130,8 +130,8 @@ hr{
   }
 
   .hr-dark-mode{
-    border: white;
-    background-color: white;
+    opacity: 1;
+    border-color: white;
   }
 
 
@@ -219,11 +219,12 @@ hr{
     text-align: center;
   }
 
+  
+  
+
   @media screen and (min-width: 768px) {
     
-    .switch{
-      left: 30%;
-    }
+    
 
     .grid-project{
       text-align: center;
@@ -236,6 +237,10 @@ hr{
       display: none;
     }
 
+    /* .project1{
+      border: 2px solid rgba(33,37,41);
+      border-radius: 1px;
+} */
     .project-img{
       width: 400px;
       height: 250px;
@@ -243,9 +248,24 @@ hr{
 
     .github-img{
       width: 60px;
+
     }
 
+    .github-icon{
+      height: auto;
+    }
+
+   
 
 
-  }
+}
+
+
+
+   
+    
+
+
+
+
   
