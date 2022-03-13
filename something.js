@@ -7,7 +7,7 @@ toggleBody = () => {
 }
 
 toggleGithub = () => {
-    var elementTwo = document.querySelectorAll('#github');
+    var elementTwo = document.querySelectorAll('.github-icon');
     // console.log(elementTwo);
 
     elementTwo.forEach(elementNode => {
