@@ -32,7 +32,7 @@ body{
  align-self: center;
 }
 
-#project-title{
+.project-title{
     margin-bottom: .75em;
     margin-top: .5em;
     text-align: center;
@@ -44,7 +44,7 @@ body{
     text-align: center;
 }
 
-#img-2{
+.img-2{
     height: 190px;
     max-height: 190px;
     
